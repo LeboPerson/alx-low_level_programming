@@ -2,13 +2,17 @@
 /**
  *Description -Prints the alphabet in lowercase.
  *
- *Return: 0 to indicate successful execution
+ *Return:0 to indicate successful execution
  */
 void print_alphabet(void)
 {
-	int i;
-	for (i = 97; i<= 122; i++)
-	{
-		_putchar(i);
-	}
-	_putchar('\n');
+    char c = 'a';
+
+    while (c <= 'z')
+    {
+        _putchar(c);
+        c++;
+    }
+    _putchar('\n');
+    return (0);
+}
