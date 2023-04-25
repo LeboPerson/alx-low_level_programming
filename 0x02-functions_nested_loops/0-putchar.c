@@ -2,7 +2,7 @@
 /**
  * main - Starting point
  * Description- 'Prints _putchar to stdout'
- * return - always 0
+ * Return 0 to indicate successful execution 
  */
 int main(void)
 {
@@ -15,6 +15,5 @@ int main(void)
 	_putchar('a');
 	_putchar('r');
 	_putchar('\n');
-	return (0)
-	/* Return 0 to indicate successful execution */;
+	return 0;
 }
